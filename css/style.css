@@ -19,18 +19,27 @@ h1{
     margin: 25px 0;
 }
 header{
-    margin-bottom: 25px;
     text-align: center;
+}
+header p{
+    border: 10px solid white;
 }
 .container-up,
 .container-down{
     color: white;
+    margin: 25px 0;
+}
+
+h4{
+    font-family: 'Fredoka One', cursive;
+    font-weight: 500;
 }
 
 .card{
     background-color: black;
-    border: 2px solid cornflowerblue;
     float: left;
+    width: calc(100% / 3);
+    border: 10px solid white;
 }
 
 .clearfix::after{
@@ -40,8 +49,11 @@ header{
 }
 img{
     width: 80px;
-    float: left;
-    
+    float: left; 
+}
+a{
+    text-decoration: none;
+    color: lightskyblue;
 }
 
 .description-teammate{
