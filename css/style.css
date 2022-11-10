@@ -35,6 +35,9 @@ h4{
     font-weight: 500;
 }
 
+.description-teammate p{
+    font-size: 14px;
+}
 .card{
     background-color: black;
     float: left;
@@ -49,7 +52,8 @@ h4{
 }
 img{
     width: 80px;
-    float: left; 
+    float: left;
+    vertical-align: middle;
 }
 a{
     text-decoration: none;
@@ -57,6 +61,5 @@ a{
 }
 
 .description-teammate{
-    float: left;
-    padding: 15px ;
+   float: left;
 }
