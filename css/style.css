@@ -34,10 +34,12 @@ header p{
 h4{
     font-family: 'Fredoka One', cursive;
     font-weight: 500;
+    line-height: 20px;
 }
 
 .description-teammate p{
     font-size: 14px;
+    line-height: 20px;
 }
 .card{
     background-color: black;
@@ -51,7 +53,7 @@ h4{
     display: table;
     content: '';
 }
-img{
+.card img{
     width: 80px;
     float: left;
     vertical-align: middle;
@@ -63,4 +65,5 @@ a{
 
 .description-teammate{
    float: left;
+   padding: 10px 0 5px 10px;
 }
