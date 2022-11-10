@@ -19,7 +19,8 @@ h1{
     margin: 25px 0;
 }
 header{
-    text-align: center;
+    text-align: justify;
+    text-align-last: center;
 }
 header p{
     border: 10px solid white;
