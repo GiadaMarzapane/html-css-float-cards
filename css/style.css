@@ -17,5 +17,32 @@ main{
 h1{
     font-family: 'Fredoka One', cursive;
     color:#e53170;
-    margin: 30px 0;
+    margin: 25px 0;
+}
+header{
+    margin-bottom: 25px;
+}
+.container-up,
+.container-down{
+    color: white;
+}
+
+.card{
+    background-color: black;
+    border: 2px solid cornflowerblue;
+}
+
+.clearfix{
+    clear: both;
+    display: table;
+    content: '';
+}
+img{
+    width: 80px;
+    float: left;
+    
+}
+
+.description-teammate{
+    float: left;
 }
