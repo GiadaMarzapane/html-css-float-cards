@@ -5,12 +5,11 @@
     box-sizing: border-box;
 }
 body{
-    text-align: center;
     font-family: 'Fredoka', sans-serif;
 }
 
 main{
-    max-width: 1200px;
+    max-width: 1000px;
     margin: auto;
 }
 
@@ -21,6 +20,7 @@ h1{
 }
 header{
     margin-bottom: 25px;
+    text-align: center;
 }
 .container-up,
 .container-down{
@@ -30,9 +30,10 @@ header{
 .card{
     background-color: black;
     border: 2px solid cornflowerblue;
+    float: left;
 }
 
-.clearfix{
+.clearfix::after{
     clear: both;
     display: table;
     content: '';
@@ -45,4 +46,5 @@ img{
 
 .description-teammate{
     float: left;
+    padding: 15px ;
 }
